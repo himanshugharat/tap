@@ -1,0 +1,45 @@
+.tap-header {
+  background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+  height: 60vh;
+  object-fit: cover;
+}
+.tap-header-content div {
+  color: white;
+}
+.tap-name {
+  padding: 10vh 0 5vh 0;
+  font-size: 10vh;
+  font-weight: bolder;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+.tap-toolbar{
+    background-color: transparent;
+    padding: 0 10vw;
+button{
+  background-color: transparent;  
+  border: none;
+  color: white;
+}
+}
+.tap-search{
+    width:60vw ;
+   padding-bottom: 0;
+   gap: 1vh;
+//    box-shadow: 10px 10px 5px 16px rgba(7, 7, 7, 0.32);
+}
+.example-form-field{
+    width:45vw ;
+    button{
+        background-color: transparent;
+        border:none;
+        
+    }
+}
+.mat-form-field-wrapper{
+    padding: 0 !important;
+}
+.tap-search-dropdown{
+    width:15vw 
+}
