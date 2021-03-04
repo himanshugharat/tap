@@ -1,0 +1,53 @@
+.tap-content-image{
+height: 200px;
+width: 250px;
+}
+.tap-content{
+    padding: 5vh 0;
+}
+.tap-card-title{
+    text-align: center;
+}
+.tap-content mat-card{
+    border-radius: 7%;
+}
+.tap-content mat-card:hover{
+    border-radius: 7%;
+        transform: scale(1.1) ; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.content-heading{
+    font-size: x-large;
+    font-weight: 500;
+  
+}
+.tap-content-explore{
+    text-decoration: none;
+    color: palevioletred;
+}
+ .example-icon{
+    background-color: transparent;
+    border: none;
+}
+.divider-card{
+    background-color: transparent;
+    border: none;
+}
+.tap-content-collection-image{
+    height: 350px;
+    width: 250px ;
+   
+}
+.tap-card{
+    background-color: transparent;
+    border: none;
+}
+
+.tap-content-collection .tap-card-title{
+    // padding: 0;
+    position: absolute;
+    top: 250px;
+    left: 20px;
+background-color: white;
+    color: rgb(109, 107, 107);
+   
+}

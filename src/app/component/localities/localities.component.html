@@ -1,0 +1,25 @@
+<div>
+    <div fxFlex="10%">
+    </div>
+    <!-- <div class="card-align-locality"*ngFor="let local of locality" fxFlex="80%">
+        <mat-card class="locality-card">
+            {{local}}
+            </mat-card>
+    </div> -->
+    <div fxLayout="row wrap" fxLayoutAlign="space-between "  fxFlex="80%">
+    <div *ngFor="let local of locality">
+        <mat-card class="locality-card" fxLayout="row" fxLayoutAlign="space-between ">
+            <div>
+           {{local}}
+            </div>
+            <div>
+                <button mat-icon-button class="example-icon favorite-icon"
+                aria-label="Example icon-button with heart icon">
+                <mat-icon>keyboard_arrow_right</mat-icon>
+            </button>
+            </div>
+        </mat-card>
+    </div>
+</div>
+    <div fxFlex="10%"></div>
+</div>

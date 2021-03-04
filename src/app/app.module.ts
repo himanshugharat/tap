@@ -13,11 +13,15 @@ import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input';
 import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 import {MatSelectModule} from '@angular/material/select';
+import { ContentComponent } from './component/content/content.component';
+import { LocalitiesComponent } from './component/localities/localities.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    ContentComponent,
+    LocalitiesComponent
   ],
   imports: [
     BrowserModule,
